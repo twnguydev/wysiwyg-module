@@ -1,0 +1,21 @@
+body {
+    display: flex;
+    justify-content: start;
+    flex-direction: column;
+}
+
+textarea {
+    width: auto;
+    height: 300px;
+    resize: none;
+    margin-bottom: 35px;
+}
+
+.wysiwyg-toolbar {
+    display: flex;
+    margin-top: 5px;
+}
+
+.wysiwyg-toolbar button {
+    margin-right: 5px;
+}

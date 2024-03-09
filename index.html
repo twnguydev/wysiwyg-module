@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>My WYSIWYG</title>
+</head>
+
+<body>
+    <textarea id="myTextarea"></textarea>
+    <button>Submit</button>
+    <div class="wysiwyg-result"></div>
+
+    <script type="module">
+        import { MyWysiwyg } from './dist/my_wysiwyg.js';
+
+        const element = document.querySelector('textarea');
+        const mw = new MyWysiwyg(element, {
+            buttons: ["bold", "italic", "color", "underline", "center", "video", "size", "image", "fontweight"],
+        });
+    </script>
+</body>
+
+</html>
