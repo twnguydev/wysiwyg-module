@@ -1,5 +1,7 @@
 # Projet Éditeur WYSIWYG
 
+<img width="908" alt="image" src="https://github.com/twnguydev/wysiwyg-module/assets/154362306/62a7fdc2-195d-451f-94b8-2ec15d30d23c">
+
 ## Sujet
 
 ### Introduction
